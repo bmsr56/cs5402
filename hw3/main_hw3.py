@@ -27,10 +27,8 @@ def makeGraph(classifier):
 
 def main():
 
-
     train_df = getDF(sys.argv[1])
     test_df = getDF(sys.argv[2])
-
 
     X_train = pd.get_dummies(train_df.loc[:, 'location':'media'])
     Y_train = pd.get_dummies(train_df.label)
