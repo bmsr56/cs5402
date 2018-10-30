@@ -125,7 +125,6 @@ print_perf(perf)
 
 # 15
 # plot: x - number of neighbors, y - line (user, collab)
-print('\n#{}-------------------------------\n'.format(15))
 
 print('\n#{}-------------------------------\n'.format(15))
 for k in range(1, 20):
